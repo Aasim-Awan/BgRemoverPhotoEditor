@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/woman"
+    tools:context=".OnboardingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/effectgradient">
+
+        <TextView
+            android:id="@+id/photoeditor"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="Photo Editor"
+            android:layout_above="@+id/about"
+            android:textColor="@color/white"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/start"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="11sp"
+            android:lineSpacingMultiplier="1.2"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/white"
+            android:text="@string/about"/>
+
+        <ProgressBar
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100dp"
+            android:gravity="center"
+            android:indeterminateTint="@color/white"/>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

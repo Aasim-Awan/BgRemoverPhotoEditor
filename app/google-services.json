@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "49650952342",
+    "project_id": "background-eraser-master-1a020",
+    "storage_bucket": "background-eraser-master-1a020.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49650952342:android:bfdd1d3084060d4a4f3ab7",
+        "android_client_info": {
+          "package_name": "com.bg.remover.android.background.eraser.editor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8cH7fMRwe69v-Um90bMBTTGUsKwO65tw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
