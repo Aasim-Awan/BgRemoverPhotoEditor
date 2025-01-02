@@ -124,7 +124,6 @@ object Utilities {
         }
     }
 
-
     fun captureScreenShot(viewToCapture: View): Bitmap {
         viewToCapture.background = null
         viewToCapture.destroyDrawingCache()
